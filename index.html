@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scrpt.js"></script>
+    <title>Trabajo práctico integrador JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="contenedor-nav">
+            <div class="codoacodo">
+                <h5 class="titulo">Conf Bs As</h5>
+            </div>
+            <nav class="nav-principal">
+                <a href="la-conferencia">La conferencia</a>
+                <a href="los-oradores">Los oradores</a>
+                <a href="lugar-fecha">El lugar y la fecha</a>
+                <a href="conviertete-orador">Conviertete en orador</a>
+                <a href="comprar-tickets"> <font color="green"> Comprar tickets </font></a>
+             </nav>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="cards">
+        <div class="card1" style="width: 18rem;">
+            <div class="card-body">
+                 <h5 class="card-title">Estudiante</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <p>80%</p>
+                 <p>* presentar documentacion</p>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Trainee</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p>50%</p>
+                <p>* presentar documentacion</p>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Junior</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p>15%</p>
+                <p>* presentar documentacion</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="valorticket">
+        <h6>VENTA</h6>
+        <h2>VALOR DE TICKET $200</h2>
+    </div>
+
+    <form>
+        <fieldset>
+            <div class="formulario1">
+            <label for="nombre"> </label>
+            <input type="text" id="nombre">
+
+            <label for="apellido"> </label>
+            <input type="text" id="apellido">
+            </div>
+            <br>
+            <div class="formulario2">
+            <label for="correo"> </label>
+            <input type="text" id="correo">
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <div class="formulario3">
+            <label for="cantidad"> Cantidad </label>
+            <input type="text" id="cantidad">
+
+            <label for="categoria" class="categoria">Categoria</label>
+            <input list="categoria">
+            <datalist id="categoria">
+                <option value="1">Estudiante</option>
+                <option value="2">Trainee</option>
+                <option value="3">Junior</option>
+            </datalist>
+            </div>
+
+            
+        </fieldset>
+    </form>
+    <br>
+    <p id="total">Total a pagar: $ </p>
+
+        <div class="botones">
+            <button type="button" class="borrar">Borrar</button>
+            <button type="button" class="resumen">Resumen</button>
+        </div>
+    </div>
+    <br>
+    <div class="contenedor-nav2">
+        <nav class="nav-principal2">
+            <a href="preguntas-frecuentes">Preguntas frecuentes</a>
+            <a href="contactanos">Contactanos</a>
+            <a href="prensa">Prensa</a>
+            <a href="conferencias">Conferecias</a>
+            <a href="terminos-condiciones">Terminos y condiciones</a>
+            <a href="privacidad">Privacidad</a>
+         </nav>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
